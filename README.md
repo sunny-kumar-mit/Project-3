@@ -2,4 +2,4 @@
 NeuroSync AI
 
 This is my futuristic Project
-link-
+link-https://sunny-kumar-mit.github.io/Project-3/
