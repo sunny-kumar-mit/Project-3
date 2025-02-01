@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeuroSync AI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="cyber-loader"></div>
+    
+    <header class="cyber-header">
+        <h1 class="glitch" data-text="NEUROSYNC">NEUROSYNC</h1>
+        <nav class="cyber-nav">
+            <a href="#about" class="neon-link">About</a>
+            <a href="#ai-core" class="neon-link">AI Core</a>
+            <a href="#contact" class="neon-link">Contact</a>
+        </nav>
+    </header>
+
+    <main class="cyber-main">
+        <section id="ai-interface" class="cyber-terminal">
+            <div class="terminal-header">
+                <span class="blink">▐</span> AI CONSOLE [v3.14.15]
+            </div>
+            <div id="chat-output" class="terminal-body"></div>
+            <div class="terminal-input">
+                <input type="text" id="ai-input" placeholder="QUERY_AI_SYSTEM">
+                <button onclick="simulateAI()" class="cyber-button">EXECUTE</button>
+            </div>
+        </section>
+
+        <section id="ai-grid" class="cyber-grid"></section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
